@@ -1,0 +1,156 @@
+
+          table{
+              float:right;
+              margin-top: 12%;
+              margin-left: 5%;
+              margin-bottom: 10%;
+          }
+          #la{
+              
+              font-size: larger;
+              margin-right: 30px;
+              font-weight: bold;
+
+
+          }
+          footer{
+              text-align: center;
+              background-color: #03DAC5;
+              color:black;
+          }
+          #f{
+              display: flex;
+              flex-direction: row;
+              column-gap: 20%;
+          }
+            nav li{
+              display:inline;
+              list-style-type: none;
+              padding: 2%;
+              float: right;
+              color: white;
+              font-size: large;
+              position: relative;
+              bottom: 5%;
+
+          }
+          p{
+              text-align: justify;
+          }
+          header{
+              background-color:#6002EE ;
+          }
+          a:link{
+             color: white;
+         }
+         p{
+             font-weight: bold;
+         }
+         body{
+             background-image: url("../images/p4.png");
+             background-repeat: no-repeat;
+             background-size:cover ;
+             background-position: center;
+             background-attachment: fixedd;
+             
+         }
+         a:visited{
+             background-color: #6002EE;
+             color: white;
+         }
+
+         a:hover{
+             background-color: cyan;
+         }
+        
+         a:active{
+             background-color: aquamarine;
+            
+         }
+         #su{
+             background-color:#651FFF;
+             color: white
+;
+
+
+         }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+          @media screen and (max-width:767px){
+            nav{
+                display: flex;
+                justify-content: center;
+                background-color: dodgerblue;
+
+                margin: 0;
+                padding:0;
+            }
+            #f{
+                display: flex;
+                flex-direction: column;
+                row-gap: 12%;
+            }
+            
+            #c{
+                position:relative;
+                top:8%;
+                display: flex;
+                flex-direction: column;
+            }
+
+
+
+          }
+
+          @media screen and (min-width:768px) and (max-width:1024px){
+
+
+
+            nav{
+                display: flex;
+                justify-content: center;
+                background-color:#B388FF;
+
+
+                margin: 0;
+                padding:0;
+            }
+
+            #f{
+                display: flex;
+                flex-direction: column;
+                row-gap: 12%;
+            }
+            
+            #c{
+                position:relative;
+                top:8%;
+                display: flex;
+                flex-direction: column;
+
+            }
+            table{
+                float: left;
+            }
+
+          }
+
+
+
+
+
+
+      
+   

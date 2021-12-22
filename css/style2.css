@@ -1,0 +1,155 @@
+
+          .connect{
+              display: flex;
+              flex-direction: row;
+              column-gap:27%;
+          }
+          #pp{
+              float: right;
+          }
+          #oo{
+              margin-left:8%;
+          }
+          #s{
+              margin-left:8%;
+          }
+          nav  li{
+              display:inline;
+              list-style-type: none;
+              padding:2%;
+              float: right;
+              font-size: large;
+              position: relative;
+              bottom: 5%;
+
+          }
+
+
+
+          a:visited{
+            background-color:#6002EE;
+             color: white;
+         }
+
+         a:hover{
+             background-color: cyan;
+         }
+        
+         a:active{
+             background-color: aquamarine;
+            
+         }
+          h1{
+              font-style: italic;
+          }
+          #q,li{
+              font-size: larger;
+          }
+          #v{
+              position: relative;
+              left: 3%;
+              font-weight: bold;
+          }
+          #t li{
+              font-size: larger;
+              
+
+          }
+          #t a:link{
+              color:#5300E8;
+
+          }
+          body{
+             background-image: url("../images/p1.png");
+             background-repeat: no-repeat;
+             background-size:cover ;
+             background-position: center;
+          }
+          header{
+              background-color:#6002EE ;
+          }
+          .bb{
+              background-color: #9965f4;
+              color: white;
+          }
+          a:link{
+             color: white;
+         }
+         footer{
+             text-align: center;
+             background-color: #03DAC5;
+              color:black;
+         }
+         #v{
+             font-size: large;
+         }
+         label, #pp{
+             font-weight: bold;
+         }
+
+
+
+
+
+
+
+
+
+
+
+          @media screen and (max-width:767px){
+            nav{
+                    background-color: aqua;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0;
+                    padding:0;
+                
+          }
+          
+          .connect{
+              display: flex;
+              flex-direction: column;
+              column-gap:10%;
+
+          }
+          #pp{
+              position: relative;
+              left: 3%;
+          }
+        } 
+
+
+
+
+        @media  screen and (min-width:768px)and (max-width:1024px) {
+
+            nav{
+                    background-color:dodgerblue;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0;
+                    padding:0;
+                }
+
+         .connect{
+              display: flex;
+              flex-direction: column;
+              column-gap:13%;
+
+          }
+          #pp{
+              position: relative;
+              left: 3%;
+              
+            }
+
+
+
+
+
+
+        }
+
+
+  

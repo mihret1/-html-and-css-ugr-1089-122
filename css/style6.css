@@ -1,0 +1,214 @@
+
+          header{
+              background-color:bblue;
+              padding: 0px;
+              margin: 0px;
+          }
+          nav li{
+              display:inline;
+              list-style-type: none;
+              padding: 2%;
+              float: right;
+              color: white;
+              font-size: large;
+              position: relative;
+              bottom: 5%;
+          }
+          .first{
+              display: grid;
+              grid-template-columns: auto auto;
+              grid-template-rows: auto auto;
+              padding: 0px;
+              margin: 0px;
+              row-gap: 10%;
+          }
+          #f p{
+              text-align: center;
+              background-color: #03DAC5;
+              color:black;
+
+    
+          }
+          .second{
+              background-color: bkisque;
+          }
+          ul li{
+              margin: 10px;
+              padding: 3px;
+        
+          }
+          a:link{
+              color: blue
+          }
+          #head{
+              background-color: bblue;
+          }
+          video{
+              max-width: 100%;
+              height: auto;
+              position: relative;
+              left: 5%;
+
+          }
+          #a p{
+            position: relative;
+              left: 5%;
+
+
+          }
+          body{
+             background-image: url("../images/p2.png");
+             background-repeat: no-repeat;
+             background-size:cover ;
+             background-position: center;
+             
+
+          }
+          header{
+              background-color:#6002EE ;
+          }
+
+
+          .first a:link{
+              color:#9965F4;
+              font-size: larger;
+              font-weight: bolder;
+          }
+          .nop{
+
+             color:#9965F4;
+              font-size: larger;
+              font-weight: bolder;
+          }
+          #ss{
+              background-color: aquamarine;
+          }
+        
+          .first a:visited{
+            color:#9965F4;
+              font-size: larger;
+              font-weight: bolder;
+          }
+          
+          .first a:hover{
+            color:#9965F4;
+              font-size: larger;
+              font-weight: bolder;
+          }
+          
+          .first a:active{
+            color:#9965F4;
+              font-size: larger;
+              font-weight: bolder;
+          }
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          a:link{
+             color: white;
+         }
+         a:visited{
+            background-color:#6002EE;
+             color: white;;
+         }
+
+         a:hover{
+             background-color: cyan;
+         }
+        
+         a:active{
+             background-color: aquamarine;
+         }
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+          @media screen and (max-width:767px){
+            nav{
+                display: flex;
+                justify-content: center;
+                background-color: dodgerblue;
+
+                margin: 0;
+                padding:0;
+            }
+            .first{
+                display: flex;
+                flex-direction: column;
+            }
+                p{
+                    font-style: italic;
+                }
+                #f{
+                    background-color: aquamarine;
+                }
+                video {
+                         width: 100%;
+                        height: auto;
+                    }
+
+
+            }
+
+
+
+
+
+            @media screen and (min-width:768px) and (max-width:1024px){
+            nav{
+                display: flex;
+                justify-content: center;
+                background-color:#D4BFF9;
+
+                margin: 0;
+                padding:0;
+            }
+            .first{
+                display: flex;
+                flex-direction: column;
+            }
+            p{
+                    font-style: oblique;
+                }
+
+                #f{background-color:rgb(113, 22, 233);
+                }
+
+    
+            }
+
+
+
+
+
+
+
+
+
+      
+             
